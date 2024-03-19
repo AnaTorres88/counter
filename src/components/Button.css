@@ -1,0 +1,50 @@
+/* Button styles*/
+
+.btn {
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  border-bottom: solid 2px transparent;
+  padding: 15px;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.timer-btn {
+  color: #fff;
+  background: rgb(22, 40, 129);
+  background: linear-gradient(
+    0deg,
+    rgba(37, 61, 179, 1) 0%,
+    rgba(49, 184, 137, 1) 100%
+  );
+  transition: all 0.1s linear;
+  box-shadow: 0 5px 0 #006599;
+}
+.timer-btn:active {
+  box-shadow: 0 2px 0 #006599;
+  transform: translateY(4px);
+}
+
+.stop {
+  background: rgb(185, 23, 23);
+  background: linear-gradient(
+    0deg,
+    rgba(185, 23, 23, 1) 0%,
+    rgba(252, 81, 69, 1) 100%
+  );
+  box-shadow: 0 5px 0 #6e0707;
+  transition: all 0.1s linear;
+}
+.stop:active {
+  box-shadow: 0 2px 0 #6e0707;
+  transform: translateY(4px);
+}
+.stop:hover {
+  background: rgb(156, 20, 20);
+  background: linear-gradient(
+    6deg,
+    rgba(156, 20, 20, 1) 0%,
+    rgba(167, 55, 47, 1) 100%
+  );
+}

@@ -1,0 +1,6 @@
+/* styles for App*/
+
+.display-container {
+  display: flex;
+  width: 100%;
+}
